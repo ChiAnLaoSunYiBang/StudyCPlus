@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/workspace/cpp_project/StudyCPlus/build",
+  "command": "C:\\Qt\\Qt5.9.0\\Tools\\mingw530_32\\bin\\g++.exe    -g   -std=gnu++1z -o CMakeFiles\\scpp.dir\\main.cpp.obj -c D:\\workspace\\cpp_project\\StudyCPlus\\main.cpp",
+  "file": "D:/workspace/cpp_project/StudyCPlus/main.cpp"
+}
+]
