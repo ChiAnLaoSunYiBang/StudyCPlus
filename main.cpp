@@ -1,75 +1,51 @@
 #include <iostream>
-#include <iomanip>
-#include <time.h>
-#include <sstream>
+#include <string.h>
+
 using namespace std;
-class complex
+class String
 {
 public:
-    complex(double r = 0, double i = 0) : re(r), im(i) {} //使用初始化列表，而不是跳过，进行赋值
-    complex &operator+=(const complex &);
-    double real() const { return re; } //加const,可被常量对象调用，不加则不能。
-    double imag() const { return im; }
-    void fun(complex &in) //相同类型，互为友元类
-    {
-        cout << in.im << endl;
-    }
+    String(const char *cstr = 0);         //构造
+    String(const String &str);            //拷贝构造
+    String &operator=(const String &str); //拷贝赋值
+    ~String();                            //析构函数
+    char *get_c_srt() const { return m_data; }
 
 private:
-    double re, im;
-    friend complex &__doapl(complex *, const complex &); //入参，出参，尽量使用引用。
-    complex fun_1(double &a, double &b)                  //函数内创建的对象或值不能用引用传递，函数结束后，被引用的值会消失
-    {
-        return complex(a, b);
-    }
+    char *m_data;
 };
-
-complex &__doapl(complex *ths, const complex &r)
+inline String::String(const char *cstr = 0)
 {
-    ths->im = r.im;
-    ths->re = r.re;
-    return *ths;
+    if (cstr)
+    {
+        m_data = new char[strlen(cstr) + 1];
+        strcpy(m_data, cstr);
+    }
+    else
+    {
+        m_data = new char[1];
+        *m_data = '\0';
+    }
 }
-inline complex &complex::operator+=(const complex &r) //成员函数，操作符重载
+inline String::String(const String &str)
 {
-    cout << "i am += !" << endl;
-    return __doapl(this, r);
+    this->m_data = new char[strlen(str.m_data) + 1];
+    strcpy(this->m_data, str.get_c_srt());
 }
-inline complex operator+(const complex &x, const complex &y) //返回value,不返回临时值的引用
+inline String &String::operator=(const String &str) //再类内包含指针时，要重写构造函数
 {
-    return complex(x.imag() + y.imag(), x.real() + y.real());
+    if (this == &str) //自我检测，当指针指向的地址相同时，不进行复制，返回当前数据
+        return *this;
+    delete[] m_data;                                 //释放被拷贝赋值的类内的数据，
+    this->m_data = new char[strlen(str.m_data) + 1]; //获取一个新的地址，以及新申请的空间
+    strcpy(this->m_data, str.get_c_srt());
+    return *this;
 }
-inline bool operator==(double x, const complex &y)
+inline String::~String()
 {
-    return x == y.real() && y.imag() == 0;
-}
-ostream &operator<<(ostream &os, const complex &x) // << 是从左到右，依次输出
-{
-    return os << '(' << x.real() << ',' << x.imag() << ')';
-}
-void test()
-{
-    std::string buf;
-    std::stringstream ss_date;
-    ss_date << "20"
-            << "22"
-            << "02"
-            << "03"
-            << "_"
-            << "04"
-            << "05"
-            << "06";
-    struct tm tt;
-    ss_date >> std::get_time(&tt, "%Y%m%d_%H%M%S");
-    time_t pre_sec = mktime(&tt);
-
-    printf("new system date :%s,pre_sec: %ld\n", ss_date.str().c_str(), pre_sec);
+    delete[] m_data;
 }
 int main(int argc, char *argv[])
 {
-    test();
-    complex aa;
-    complex bb;
-    aa.fun(bb);
-    aa += bb;
+    return 0;
 }
