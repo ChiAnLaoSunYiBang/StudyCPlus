@@ -516,3 +516,563 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+The system is: Windows - 10.0.22631 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Devops/MinGW/bin/cc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/3.25.1/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Devops/MinGW/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/3.25.1/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-nzkk4h
+
+Run Build Command(s):D:/Devops/MinGW/bin/make.exe -f Makefile cmTC_da2a5/fast && D:/Devops/MinGW/bin/make.exe  -f CMakeFiles/cmTC_da2a5.dir/build.make CMakeFiles/cmTC_da2a5.dir/build
+make.exe[1]: Entering directory `D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-nzkk4h'
+Building C object CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj
+D:/Devops/MinGW/bin/cc.exe   -v -o CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/cmake-3.25.1-windows-x86_64/share/cmake-3.25/Modules/CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=D:/Devops/MinGW/bin/cc.exe
+Target: i686-pc-mingw32
+Configured with: ../src/configure --prefix=/c/temp/gcc/dest --with-gmp=/c/temp/gcc/gmp --with-mpfr=/c/temp/gcc/mpfr --with-mpc=/c/temp/gcc/mpc --enable-languages=c,c++ --with-arch=i686 --with-tune=generic --disable-libstdcxx-pch --disable-nls --disable-shared --disable-sjlj-exceptions --disable-win32-registry --enable-checking=release --enable-lto
+Thread model: win32
+gcc version 4.8.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+ d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/cc1.exe -quiet -v -iprefix d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/ C:/Program Files/cmake-3.25.1-windows-x86_64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\cxin\AppData\Local\Temp\ccBwe6vu.s
+GNU C (GCC) version 4.8.0 (i686-pc-mingw32)
+	compiled by GNU C version 4.8.0, GMP version 5.1.1, MPFR version 3.1.2, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../i686-pc-mingw32/include"
+ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/include"
+ignoring nonexistent directory "c:/temp/gcc/dest/include"
+ignoring nonexistent directory "/c/temp/gcc/dest/include"
+ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed"
+ignoring nonexistent directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/../../../../i686-pc-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/include
+ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include
+ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed
+End of search list.
+GNU C (GCC) version 4.8.0 (i686-pc-mingw32)
+	compiled by GNU C version 4.8.0, GMP version 5.1.1, MPFR version 3.1.2, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 573085d35dd591c0be489236e0dac51c
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+ as -v -o CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj C:\Users\cxin\AppData\Local\Temp\ccBwe6vu.s
+GNU assembler version 2.23.2 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.23.2
+COMPILER_PATH=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/;d:/devops/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/;d:/devops/mingw/bin/../lib/gcc/;d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+Linking C executable cmTC_da2a5.exe
+"C:/Program Files/cmake-3.25.1-windows-x86_64/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_da2a5.dir/objects.a
+D:/Devops/MinGW/bin/ar.exe qc CMakeFiles/cmTC_da2a5.dir/objects.a @CMakeFiles/cmTC_da2a5.dir/objects1
+D:/Devops/MinGW/bin/cc.exe  -v -Wl,--whole-archive CMakeFiles/cmTC_da2a5.dir/objects.a -Wl,--no-whole-archive -o cmTC_da2a5.exe -Wl,--out-implib,libcmTC_da2a5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:/Devops/MinGW/bin/cc.exe
+COLLECT_LTO_WRAPPER=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/lto-wrapper.exe
+Target: i686-pc-mingw32
+Configured with: ../src/configure --prefix=/c/temp/gcc/dest --with-gmp=/c/temp/gcc/gmp --with-mpfr=/c/temp/gcc/mpfr --with-mpc=/c/temp/gcc/mpc --enable-languages=c,c++ --with-arch=i686 --with-tune=generic --disable-libstdcxx-pch --disable-nls --disable-shared --disable-sjlj-exceptions --disable-win32-registry --enable-checking=release --enable-lto
+Thread model: win32
+gcc version 4.8.0 (GCC) 
+COMPILER_PATH=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/;d:/devops/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/;d:/devops/mingw/bin/../lib/gcc/;d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_da2a5.exe' '-mtune=generic' '-march=i686'
+ d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/collect2.exe -Bdynamic -o cmTC_da2a5.exe d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../crt2.o d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o -Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0 -Ld:/devops/mingw/bin/../lib/gcc -Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../.. --whole-archive CMakeFiles/cmTC_da2a5.dir/objects.a --no-whole-archive --out-implib libcmTC_da2a5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtend.o
+make.exe[1]: Leaving directory `D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-nzkk4h'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/include]
+    add: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include]
+    add: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed]
+  end of search list found
+  collapse include dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/include] ==> [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/include]
+  collapse include dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include] ==> [D:/Devops/MinGW/include]
+  collapse include dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed] ==> [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/include-fixed]
+  implicit include dirs: [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/include;D:/Devops/MinGW/include;D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/include-fixed]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-nzkk4h]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/Devops/MinGW/bin/make.exe -f Makefile cmTC_da2a5/fast && D:/Devops/MinGW/bin/make.exe  -f CMakeFiles/cmTC_da2a5.dir/build.make CMakeFiles/cmTC_da2a5.dir/build]
+  ignore line: [make.exe[1]: Entering directory `D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-nzkk4h']
+  ignore line: [Building C object CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:/Devops/MinGW/bin/cc.exe   -v -o CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/cmake-3.25.1-windows-x86_64/share/cmake-3.25/Modules/CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:/Devops/MinGW/bin/cc.exe]
+  ignore line: [Target: i686-pc-mingw32]
+  ignore line: [Configured with: ../src/configure --prefix=/c/temp/gcc/dest --with-gmp=/c/temp/gcc/gmp --with-mpfr=/c/temp/gcc/mpfr --with-mpc=/c/temp/gcc/mpc --enable-languages=c c++ --with-arch=i686 --with-tune=generic --disable-libstdcxx-pch --disable-nls --disable-shared --disable-sjlj-exceptions --disable-win32-registry --enable-checking=release --enable-lto]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [ d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/cc1.exe -quiet -v -iprefix d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/ C:/Program Files/cmake-3.25.1-windows-x86_64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\cxin\AppData\Local\Temp\ccBwe6vu.s]
+  ignore line: [GNU C (GCC) version 4.8.0 (i686-pc-mingw32)]
+  ignore line: [	compiled by GNU C version 4.8.0  GMP version 5.1.1  MPFR version 3.1.2  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../i686-pc-mingw32/include"]
+  ignore line: [ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/include"]
+  ignore line: [ignoring nonexistent directory "c:/temp/gcc/dest/include"]
+  ignore line: [ignoring nonexistent directory "/c/temp/gcc/dest/include"]
+  ignore line: [ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/../../../../i686-pc-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/include]
+  ignore line: [ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include]
+  ignore line: [ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C (GCC) version 4.8.0 (i686-pc-mingw32)]
+  ignore line: [	compiled by GNU C version 4.8.0  GMP version 5.1.1  MPFR version 3.1.2  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 573085d35dd591c0be489236e0dac51c]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [ as -v -o CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj C:\Users\cxin\AppData\Local\Temp\ccBwe6vu.s]
+  ignore line: [GNU assembler version 2.23.2 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.23.2]
+  ignore line: [COMPILER_PATH=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/]
+  ignore line: [d:/devops/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/]
+  ignore line: [d:/devops/mingw/bin/../lib/gcc/]
+  ignore line: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da2a5.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [Linking C executable cmTC_da2a5.exe]
+  ignore line: ["C:/Program Files/cmake-3.25.1-windows-x86_64/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_da2a5.dir/objects.a]
+  ignore line: [D:/Devops/MinGW/bin/ar.exe qc CMakeFiles/cmTC_da2a5.dir/objects.a @CMakeFiles/cmTC_da2a5.dir/objects1]
+  ignore line: [D:/Devops/MinGW/bin/cc.exe  -v -Wl --whole-archive CMakeFiles/cmTC_da2a5.dir/objects.a -Wl --no-whole-archive -o cmTC_da2a5.exe -Wl --out-implib libcmTC_da2a5.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:/Devops/MinGW/bin/cc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/lto-wrapper.exe]
+  ignore line: [Target: i686-pc-mingw32]
+  ignore line: [Configured with: ../src/configure --prefix=/c/temp/gcc/dest --with-gmp=/c/temp/gcc/gmp --with-mpfr=/c/temp/gcc/mpfr --with-mpc=/c/temp/gcc/mpc --enable-languages=c c++ --with-arch=i686 --with-tune=generic --disable-libstdcxx-pch --disable-nls --disable-shared --disable-sjlj-exceptions --disable-win32-registry --enable-checking=release --enable-lto]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.0 (GCC) ]
+  ignore line: [COMPILER_PATH=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/]
+  ignore line: [d:/devops/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/]
+  ignore line: [d:/devops/mingw/bin/../lib/gcc/]
+  ignore line: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_da2a5.exe' '-mtune=generic' '-march=i686']
+  link line: [ d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/collect2.exe -Bdynamic -o cmTC_da2a5.exe d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../crt2.o d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o -Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0 -Ld:/devops/mingw/bin/../lib/gcc -Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../.. --whole-archive CMakeFiles/cmTC_da2a5.dir/objects.a --no-whole-archive --out-implib libcmTC_da2a5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtend.o]
+    arg [d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_da2a5.exe] ==> ignore
+    arg [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../crt2.o] ==> obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../crt2.o]
+    arg [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o] ==> obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o]
+    arg [-Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0] ==> dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0]
+    arg [-Ld:/devops/mingw/bin/../lib/gcc] ==> dir [d:/devops/mingw/bin/../lib/gcc]
+    arg [-Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../..] ==> dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_da2a5.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_da2a5.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtend.o] ==> obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../crt2.o] ==> [D:/Devops/MinGW/lib/crt2.o]
+  collapse obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o] ==> [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o]
+  collapse obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtend.o] ==> [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/crtend.o]
+  collapse library dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0] ==> [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0]
+  collapse library dir [d:/devops/mingw/bin/../lib/gcc] ==> [D:/Devops/MinGW/lib/gcc]
+  collapse library dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../..] ==> [D:/Devops/MinGW/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit objs: [D:/Devops/MinGW/lib/crt2.o;D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o;D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/crtend.o]
+  implicit dirs: [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0;D:/Devops/MinGW/lib/gcc;D:/Devops/MinGW/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-uyp2dw
+
+Run Build Command(s):D:/Devops/MinGW/bin/make.exe -f Makefile cmTC_d054d/fast && D:/Devops/MinGW/bin/make.exe  -f CMakeFiles/cmTC_d054d.dir/build.make CMakeFiles/cmTC_d054d.dir/build
+make.exe[1]: Entering directory `D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-uyp2dw'
+Building CXX object CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj
+D:/Devops/MinGW/bin/g++.exe   -v -o CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/cmake-3.25.1-windows-x86_64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=D:/Devops/MinGW/bin/g++.exe
+Target: i686-pc-mingw32
+Configured with: ../src/configure --prefix=/c/temp/gcc/dest --with-gmp=/c/temp/gcc/gmp --with-mpfr=/c/temp/gcc/mpfr --with-mpc=/c/temp/gcc/mpc --enable-languages=c,c++ --with-arch=i686 --with-tune=generic --disable-libstdcxx-pch --disable-nls --disable-shared --disable-sjlj-exceptions --disable-win32-registry --enable-checking=release --enable-lto
+Thread model: win32
+gcc version 4.8.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=i686'
+ d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/cc1plus.exe -quiet -v -iprefix d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/ C:/Program Files/cmake-3.25.1-windows-x86_64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\cxin\AppData\Local\Temp\ccHNTkgc.s
+GNU C++ (GCC) version 4.8.0 (i686-pc-mingw32)
+	compiled by GNU C version 4.8.0, GMP version 5.1.1, MPFR version 3.1.2, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../i686-pc-mingw32/include"
+ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0"
+ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/i686-pc-mingw32"
+ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/backward"
+ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/include"
+ignoring nonexistent directory "c:/temp/gcc/dest/include"
+ignoring nonexistent directory "/c/temp/gcc/dest/include"
+ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed"
+ignoring nonexistent directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/../../../../i686-pc-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0
+ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/i686-pc-mingw32
+ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/backward
+ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/include
+ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include
+ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed
+End of search list.
+GNU C++ (GCC) version 4.8.0 (i686-pc-mingw32)
+	compiled by GNU C version 4.8.0, GMP version 5.1.1, MPFR version 3.1.2, MPC version 1.0.1
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d1b621d0f04fd2bb1f7a11700124cfad
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=i686'
+ as -v -o CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\cxin\AppData\Local\Temp\ccHNTkgc.s
+GNU assembler version 2.23.2 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.23.2
+COMPILER_PATH=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/;d:/devops/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/;d:/devops/mingw/bin/../lib/gcc/;d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=i686'
+Linking CXX executable cmTC_d054d.exe
+"C:/Program Files/cmake-3.25.1-windows-x86_64/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_d054d.dir/objects.a
+D:/Devops/MinGW/bin/ar.exe qc CMakeFiles/cmTC_d054d.dir/objects.a @CMakeFiles/cmTC_d054d.dir/objects1
+D:/Devops/MinGW/bin/g++.exe  -v -Wl,--whole-archive CMakeFiles/cmTC_d054d.dir/objects.a -Wl,--no-whole-archive -o cmTC_d054d.exe -Wl,--out-implib,libcmTC_d054d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:/Devops/MinGW/bin/g++.exe
+COLLECT_LTO_WRAPPER=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/lto-wrapper.exe
+Target: i686-pc-mingw32
+Configured with: ../src/configure --prefix=/c/temp/gcc/dest --with-gmp=/c/temp/gcc/gmp --with-mpfr=/c/temp/gcc/mpfr --with-mpc=/c/temp/gcc/mpc --enable-languages=c,c++ --with-arch=i686 --with-tune=generic --disable-libstdcxx-pch --disable-nls --disable-shared --disable-sjlj-exceptions --disable-win32-registry --enable-checking=release --enable-lto
+Thread model: win32
+gcc version 4.8.0 (GCC) 
+COMPILER_PATH=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/;d:/devops/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/;d:/devops/mingw/bin/../lib/gcc/;d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d054d.exe' '-mtune=generic' '-march=i686'
+ d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/collect2.exe -Bdynamic -o cmTC_d054d.exe d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../crt2.o d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o -Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0 -Ld:/devops/mingw/bin/../lib/gcc -Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../.. --whole-archive CMakeFiles/cmTC_d054d.dir/objects.a --no-whole-archive --out-implib libcmTC_d054d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtend.o
+make.exe[1]: Leaving directory `D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-uyp2dw'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0]
+    add: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/i686-pc-mingw32]
+    add: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/backward]
+    add: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/include]
+    add: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include]
+    add: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed]
+  end of search list found
+  collapse include dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0] ==> [D:/Devops/MinGW/include/c++/4.8.0]
+  collapse include dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/i686-pc-mingw32] ==> [D:/Devops/MinGW/include/c++/4.8.0/i686-pc-mingw32]
+  collapse include dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/backward] ==> [D:/Devops/MinGW/include/c++/4.8.0/backward]
+  collapse include dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/include] ==> [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/include]
+  collapse include dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include] ==> [D:/Devops/MinGW/include]
+  collapse include dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed] ==> [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/include-fixed]
+  implicit include dirs: [D:/Devops/MinGW/include/c++/4.8.0;D:/Devops/MinGW/include/c++/4.8.0/i686-pc-mingw32;D:/Devops/MinGW/include/c++/4.8.0/backward;D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/include;D:/Devops/MinGW/include;D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/include-fixed]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-uyp2dw]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/Devops/MinGW/bin/make.exe -f Makefile cmTC_d054d/fast && D:/Devops/MinGW/bin/make.exe  -f CMakeFiles/cmTC_d054d.dir/build.make CMakeFiles/cmTC_d054d.dir/build]
+  ignore line: [make.exe[1]: Entering directory `D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-uyp2dw']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:/Devops/MinGW/bin/g++.exe   -v -o CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/cmake-3.25.1-windows-x86_64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:/Devops/MinGW/bin/g++.exe]
+  ignore line: [Target: i686-pc-mingw32]
+  ignore line: [Configured with: ../src/configure --prefix=/c/temp/gcc/dest --with-gmp=/c/temp/gcc/gmp --with-mpfr=/c/temp/gcc/mpfr --with-mpc=/c/temp/gcc/mpc --enable-languages=c c++ --with-arch=i686 --with-tune=generic --disable-libstdcxx-pch --disable-nls --disable-shared --disable-sjlj-exceptions --disable-win32-registry --enable-checking=release --enable-lto]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [ d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/cc1plus.exe -quiet -v -iprefix d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/ C:/Program Files/cmake-3.25.1-windows-x86_64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\cxin\AppData\Local\Temp\ccHNTkgc.s]
+  ignore line: [GNU C++ (GCC) version 4.8.0 (i686-pc-mingw32)]
+  ignore line: [	compiled by GNU C version 4.8.0  GMP version 5.1.1  MPFR version 3.1.2  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../i686-pc-mingw32/include"]
+  ignore line: [ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0"]
+  ignore line: [ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/i686-pc-mingw32"]
+  ignore line: [ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/backward"]
+  ignore line: [ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/include"]
+  ignore line: [ignoring nonexistent directory "c:/temp/gcc/dest/include"]
+  ignore line: [ignoring nonexistent directory "/c/temp/gcc/dest/include"]
+  ignore line: [ignoring duplicate directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "d:/devops/mingw/lib/gcc/../../lib/gcc/i686-pc-mingw32/4.8.0/../../../../i686-pc-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0]
+  ignore line: [ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/i686-pc-mingw32]
+  ignore line: [ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include/c++/4.8.0/backward]
+  ignore line: [ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/include]
+  ignore line: [ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/../../../../include]
+  ignore line: [ d:\devops\mingw\bin\../lib/gcc/i686-pc-mingw32/4.8.0/include-fixed]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (GCC) version 4.8.0 (i686-pc-mingw32)]
+  ignore line: [	compiled by GNU C version 4.8.0  GMP version 5.1.1  MPFR version 3.1.2  MPC version 1.0.1]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d1b621d0f04fd2bb1f7a11700124cfad]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [ as -v -o CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\cxin\AppData\Local\Temp\ccHNTkgc.s]
+  ignore line: [GNU assembler version 2.23.2 (i686-pc-mingw32) using BFD version (GNU Binutils) 2.23.2]
+  ignore line: [COMPILER_PATH=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/]
+  ignore line: [d:/devops/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/]
+  ignore line: [d:/devops/mingw/bin/../lib/gcc/]
+  ignore line: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d054d.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=i686']
+  ignore line: [Linking CXX executable cmTC_d054d.exe]
+  ignore line: ["C:/Program Files/cmake-3.25.1-windows-x86_64/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_d054d.dir/objects.a]
+  ignore line: [D:/Devops/MinGW/bin/ar.exe qc CMakeFiles/cmTC_d054d.dir/objects.a @CMakeFiles/cmTC_d054d.dir/objects1]
+  ignore line: [D:/Devops/MinGW/bin/g++.exe  -v -Wl --whole-archive CMakeFiles/cmTC_d054d.dir/objects.a -Wl --no-whole-archive -o cmTC_d054d.exe -Wl --out-implib libcmTC_d054d.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:/Devops/MinGW/bin/g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/lto-wrapper.exe]
+  ignore line: [Target: i686-pc-mingw32]
+  ignore line: [Configured with: ../src/configure --prefix=/c/temp/gcc/dest --with-gmp=/c/temp/gcc/gmp --with-mpfr=/c/temp/gcc/mpfr --with-mpc=/c/temp/gcc/mpc --enable-languages=c c++ --with-arch=i686 --with-tune=generic --disable-libstdcxx-pch --disable-nls --disable-shared --disable-sjlj-exceptions --disable-win32-registry --enable-checking=release --enable-lto]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 4.8.0 (GCC) ]
+  ignore line: [COMPILER_PATH=d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/]
+  ignore line: [d:/devops/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/]
+  ignore line: [d:/devops/mingw/bin/../lib/gcc/]
+  ignore line: [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d054d.exe' '-mtune=generic' '-march=i686']
+  link line: [ d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/collect2.exe -Bdynamic -o cmTC_d054d.exe d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../crt2.o d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o -Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0 -Ld:/devops/mingw/bin/../lib/gcc -Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../.. --whole-archive CMakeFiles/cmTC_d054d.dir/objects.a --no-whole-archive --out-implib libcmTC_d054d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtend.o]
+    arg [d:/devops/mingw/bin/../libexec/gcc/i686-pc-mingw32/4.8.0/collect2.exe] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_d054d.exe] ==> ignore
+    arg [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../crt2.o] ==> obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../crt2.o]
+    arg [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o] ==> obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o]
+    arg [-Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0] ==> dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0]
+    arg [-Ld:/devops/mingw/bin/../lib/gcc] ==> dir [d:/devops/mingw/bin/../lib/gcc]
+    arg [-Ld:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../..] ==> dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles/cmTC_d054d.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_d054d.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtend.o] ==> obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtend.o]
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../../crt2.o] ==> [D:/Devops/MinGW/lib/crt2.o]
+  collapse obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o] ==> [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o]
+  collapse obj [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/crtend.o] ==> [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/crtend.o]
+  collapse library dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0] ==> [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0]
+  collapse library dir [d:/devops/mingw/bin/../lib/gcc] ==> [D:/Devops/MinGW/lib/gcc]
+  collapse library dir [d:/devops/mingw/bin/../lib/gcc/i686-pc-mingw32/4.8.0/../../..] ==> [D:/Devops/MinGW/lib]
+  implicit libs: [stdc++;mingw32;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit objs: [D:/Devops/MinGW/lib/crt2.o;D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/crtbegin.o;D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0/crtend.o]
+  implicit dirs: [D:/Devops/MinGW/lib/gcc/i686-pc-mingw32/4.8.0;D:/Devops/MinGW/lib/gcc;D:/Devops/MinGW/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-57ftq2
+
+Run Build Command(s):D:/Devops/MinGW/bin/make.exe -f Makefile cmTC_e18db/fast && D:/Devops/MinGW/bin/make.exe  -f CMakeFiles/cmTC_e18db.dir/build.make CMakeFiles/cmTC_e18db.dir/build
+make.exe[1]: Entering directory `D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-57ftq2'
+Building CXX object CMakeFiles/cmTC_e18db.dir/feature_tests.cxx.obj
+D:/Devops/MinGW/bin/g++.exe   -std=c++1y -o CMakeFiles/cmTC_e18db.dir/feature_tests.cxx.obj -c D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-57ftq2/feature_tests.cxx
+Linking CXX executable cmTC_e18db.exe
+"C:/Program Files/cmake-3.25.1-windows-x86_64/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_e18db.dir/objects.a
+D:/Devops/MinGW/bin/ar.exe qc CMakeFiles/cmTC_e18db.dir/objects.a @CMakeFiles/cmTC_e18db.dir/objects1
+D:/Devops/MinGW/bin/g++.exe -Wl,--whole-archive CMakeFiles/cmTC_e18db.dir/objects.a -Wl,--no-whole-archive -o cmTC_e18db.exe -Wl,--out-implib,libcmTC_e18db.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_e18db.dir/linkLibs.rsp
+make.exe[1]: Leaving directory `D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-57ftq2'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-vjrhwr
+
+Run Build Command(s):D:/Devops/MinGW/bin/make.exe -f Makefile cmTC_1778c/fast && D:/Devops/MinGW/bin/make.exe  -f CMakeFiles/cmTC_1778c.dir/build.make CMakeFiles/cmTC_1778c.dir/build
+make.exe[1]: Entering directory `D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-vjrhwr'
+Building CXX object CMakeFiles/cmTC_1778c.dir/feature_tests.cxx.obj
+D:/Devops/MinGW/bin/g++.exe   -std=c++11 -o CMakeFiles/cmTC_1778c.dir/feature_tests.cxx.obj -c D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-vjrhwr/feature_tests.cxx
+Linking CXX executable cmTC_1778c.exe
+"C:/Program Files/cmake-3.25.1-windows-x86_64/bin/cmake.exe" -E rm -f CMakeFiles/cmTC_1778c.dir/objects.a
+D:/Devops/MinGW/bin/ar.exe qc CMakeFiles/cmTC_1778c.dir/objects.a @CMakeFiles/cmTC_1778c.dir/objects1
+D:/Devops/MinGW/bin/g++.exe -Wl,--whole-archive CMakeFiles/cmTC_1778c.dir/objects.a -Wl,--no-whole-archive -o cmTC_1778c.exe -Wl,--out-implib,libcmTC_1778c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/cmTC_1778c.dir/linkLibs.rsp
+make.exe[1]: Leaving directory `D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles/CMakeScratch/TryCompile-vjrhwr'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

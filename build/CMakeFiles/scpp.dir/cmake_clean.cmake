@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/scpp.dir/main.cpp.obj"
+  "CMakeFiles/scpp.dir/main.cpp.obj.d"
   "libscpp.dll.a"
   "scpp.exe"
   "scpp.exe.manifest"
