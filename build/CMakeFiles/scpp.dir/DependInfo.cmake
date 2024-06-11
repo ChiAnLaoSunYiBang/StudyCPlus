@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Devops/projects/vscode/StudyCPlus/main.cpp" "CMakeFiles/scpp.dir/main.cpp.obj" "gcc" "CMakeFiles/scpp.dir/main.cpp.obj.d"
+  "D:/Devops/projects/vscode/StudyCPlus/src/main.cpp" "CMakeFiles/scpp.dir/src/main.cpp.obj" "gcc" "CMakeFiles/scpp.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

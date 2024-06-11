@@ -1,7 +1,7 @@
 [
 {
   "directory": "D:/Devops/projects/vscode/StudyCPlus/build",
-  "command": "D:/Devops/MinGW/bin/g++.exe   -g -std=gnu++1y -o CMakeFiles/scpp.dir/main.cpp.obj -c D:/Devops/projects/vscode/StudyCPlus/main.cpp",
-  "file": "D:/Devops/projects/vscode/StudyCPlus/main.cpp"
+  "command": "D:/Devops/MinGW/bin/g++.exe   -g -std=gnu++1y -o CMakeFiles/scpp.dir/src/main.cpp.obj -c D:/Devops/projects/vscode/StudyCPlus/src/main.cpp",
+  "file": "D:/Devops/projects/vscode/StudyCPlus/src/main.cpp"
 }
 ]

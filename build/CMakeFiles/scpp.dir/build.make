@@ -69,28 +69,28 @@ include CMakeFiles/scpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/scpp.dir/flags.make
 
-CMakeFiles/scpp.dir/main.cpp.obj: CMakeFiles/scpp.dir/flags.make
-CMakeFiles/scpp.dir/main.cpp.obj: D:/Devops/projects/vscode/StudyCPlus/main.cpp
-CMakeFiles/scpp.dir/main.cpp.obj: CMakeFiles/scpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scpp.dir/main.cpp.obj"
-	D:/Devops/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scpp.dir/main.cpp.obj -MF CMakeFiles/scpp.dir/main.cpp.obj.d -o CMakeFiles/scpp.dir/main.cpp.obj -c D:/Devops/projects/vscode/StudyCPlus/main.cpp
+CMakeFiles/scpp.dir/src/main.cpp.obj: CMakeFiles/scpp.dir/flags.make
+CMakeFiles/scpp.dir/src/main.cpp.obj: D:/Devops/projects/vscode/StudyCPlus/src/main.cpp
+CMakeFiles/scpp.dir/src/main.cpp.obj: CMakeFiles/scpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/Devops/projects/vscode/StudyCPlus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/scpp.dir/src/main.cpp.obj"
+	D:/Devops/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/scpp.dir/src/main.cpp.obj -MF CMakeFiles/scpp.dir/src/main.cpp.obj.d -o CMakeFiles/scpp.dir/src/main.cpp.obj -c D:/Devops/projects/vscode/StudyCPlus/src/main.cpp
 
-CMakeFiles/scpp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scpp.dir/main.cpp.i"
-	D:/Devops/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Devops/projects/vscode/StudyCPlus/main.cpp > CMakeFiles/scpp.dir/main.cpp.i
+CMakeFiles/scpp.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/scpp.dir/src/main.cpp.i"
+	D:/Devops/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/Devops/projects/vscode/StudyCPlus/src/main.cpp > CMakeFiles/scpp.dir/src/main.cpp.i
 
-CMakeFiles/scpp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scpp.dir/main.cpp.s"
-	D:/Devops/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Devops/projects/vscode/StudyCPlus/main.cpp -o CMakeFiles/scpp.dir/main.cpp.s
+CMakeFiles/scpp.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/scpp.dir/src/main.cpp.s"
+	D:/Devops/MinGW/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/Devops/projects/vscode/StudyCPlus/src/main.cpp -o CMakeFiles/scpp.dir/src/main.cpp.s
 
 # Object files for target scpp
 scpp_OBJECTS = \
-"CMakeFiles/scpp.dir/main.cpp.obj"
+"CMakeFiles/scpp.dir/src/main.cpp.obj"
 
 # External object files for target scpp
 scpp_EXTERNAL_OBJECTS =
 
-scpp.exe: CMakeFiles/scpp.dir/main.cpp.obj
+scpp.exe: CMakeFiles/scpp.dir/src/main.cpp.obj
 scpp.exe: CMakeFiles/scpp.dir/build.make
 scpp.exe: CMakeFiles/scpp.dir/linkLibs.rsp
 scpp.exe: CMakeFiles/scpp.dir/objects1
